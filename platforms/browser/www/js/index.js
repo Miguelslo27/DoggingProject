@@ -41,15 +41,11 @@ var app = {
     startApp: function() {
         StatusBar.styleBlackOpaque();
 
-        alert('ready');
-        
         app.getPages();
         app.bindPagesEvents();
     },
     getPages: function() {
-        alert('get pages');
     },
     bindPagesEvents: function() {
-        alert('bind pages events');
     }
 };
